@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "status_insterfaces__py",
+		"source" : "/home/duhao/ros_test1/build/status_insterfaces/status_insterfaces__py"
+	}
+}

@@ -1,0 +1,14 @@
+source;share/status_insterfaces/hook/cmake_prefix_path.ps1
+source;share/status_insterfaces/hook/cmake_prefix_path.dsv
+source;share/status_insterfaces/hook/cmake_prefix_path.sh
+source;share/status_insterfaces/hook/ld_library_path_lib.ps1
+source;share/status_insterfaces/hook/ld_library_path_lib.dsv
+source;share/status_insterfaces/hook/ld_library_path_lib.sh
+source;share/status_insterfaces/hook/pythonpath.ps1
+source;share/status_insterfaces/hook/pythonpath.dsv
+source;share/status_insterfaces/hook/pythonpath.sh
+source;share/status_insterfaces/local_setup.bash
+source;share/status_insterfaces/local_setup.dsv
+source;share/status_insterfaces/local_setup.ps1
+source;share/status_insterfaces/local_setup.sh
+source;share/status_insterfaces/local_setup.zsh

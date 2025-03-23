@@ -1,0 +1,10 @@
+{
+  "package_name": "status_insterfaces",
+  "output_dir": "/home/duhao/ros_test1/build/status_insterfaces/rosidl_generator_type_description/status_insterfaces",
+  "idl_tuples": [
+    "/home/duhao/ros_test1/build/status_insterfaces/rosidl_adapter/status_insterfaces:msg/SystemStatus.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces"
+  ]
+}

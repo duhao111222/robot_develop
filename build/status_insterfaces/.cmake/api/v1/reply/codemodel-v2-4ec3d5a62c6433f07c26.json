@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-661a5e2bc2a8bb355a39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "status_insterfaces__py",
+					"jsonFile" : "directory-status_insterfaces__py-8cf6037f5c73a00bf25c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/duhao/ros_test1/build/status_insterfaces/status_insterfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "status_insterfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_status_insterfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_status_insterfaces_egg-ba9588386961b486dcd7.json",
+					"name" : "ament_cmake_python_build_status_insterfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_status_insterfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_status_insterfaces-7678b10663f923e8654a.json",
+					"name" : "ament_cmake_python_copy_status_insterfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces-3ba43680df2c78ffa169.json",
+					"name" : "status_insterfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__cpp-d1509cc3291fe30b74c2.json",
+					"name" : "status_insterfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "status_insterfaces__py::@eb988dbb016b67def80d",
+					"jsonFile" : "target-status_insterfaces__py-efcfb38432e8ac894eb3.json",
+					"name" : "status_insterfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__rosidl_generator_c-35efb3ce6c45bdaaab81.json",
+					"name" : "status_insterfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__rosidl_generator_py-4a8929f534ff3402558d.json",
+					"name" : "status_insterfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__rosidl_generator_type_description-a562472a9d7b77d20dce.json",
+					"name" : "status_insterfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__rosidl_typesupport_c-5e1dfc416e54a5322632.json",
+					"name" : "status_insterfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__rosidl_typesupport_cpp-1f5344cdca87de0320bf.json",
+					"name" : "status_insterfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__rosidl_typesupport_fastrtps_c-c8be3098043548217794.json",
+					"name" : "status_insterfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__rosidl_typesupport_fastrtps_cpp-200d9da8dc429c6f8f83.json",
+					"name" : "status_insterfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__rosidl_typesupport_introspection_c-503119c5a7cc5025e55d.json",
+					"name" : "status_insterfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces__rosidl_typesupport_introspection_cpp-e185b3c5f544ccd4981a.json",
+					"name" : "status_insterfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces_s__rosidl_typesupport_c-9998beb1d0ac8f570825.json",
+					"name" : "status_insterfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces_s__rosidl_typesupport_fastrtps_c-c0b7aa3a2c1d11d5c35b.json",
+					"name" : "status_insterfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces_s__rosidl_typesupport_introspection_c-2884ec48380e6080daf4.json",
+					"name" : "status_insterfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_insterfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_insterfaces_uninstall-19809078a8c4aeb3f61d.json",
+					"name" : "status_insterfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-438debd02d9bff094474.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/duhao/ros_test1/build/status_insterfaces",
+		"source" : "/home/duhao/ros_test1/topic_practice_ws/src/stutas_insterfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

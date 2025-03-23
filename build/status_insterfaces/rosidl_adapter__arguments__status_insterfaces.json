@@ -1,0 +1,6 @@
+{
+  "package_name": "status_insterfaces",
+  "non_idl_tuples": [
+    "/home/duhao/ros_test1/topic_practice_ws/src/stutas_insterfaces:msg/SystemStatus.msg"
+  ]
+}

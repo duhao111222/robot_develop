@@ -1,0 +1,226 @@
+[0.068s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.068s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7aa5a735fe90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7aa5a735fce0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7aa5a735fce0>>)
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.094s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/duhao/ros_test1'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extension 'cmake'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extension 'python'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extensions ['python_setup_py']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extension 'cmake'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extension 'python'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extensions ['python_setup_py']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/status_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/status_publisher) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/status_publisher) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/status_publisher) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/status_publisher) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/status_publisher) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/status_publisher) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/status_publisher) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/status_publisher) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'topic_practice_ws/src/status_publisher' with type 'ros.ament_python' and name 'status_publisher'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/stutas_insterfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/stutas_insterfaces) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/stutas_insterfaces) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/stutas_insterfaces) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/stutas_insterfaces) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/stutas_insterfaces) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/stutas_insterfaces) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/stutas_insterfaces) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(topic_practice_ws/src/stutas_insterfaces) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'topic_practice_ws/src/stutas_insterfaces' with type 'ros.ament_cmake' and name 'status_insterfaces'
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.127s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/duhao/ros_test1/install/status_publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.127s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/duhao/ros_test1/install/status_insterfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.127s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/duhao/ros_test1/install/status_insterfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.128s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/duhao/ros_test1/install
+[0.128s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/rolling
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'status_insterfaces' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_insterfaces' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_insterfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_insterfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_insterfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_insterfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_insterfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_insterfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_insterfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'status_insterfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duhao/ros_test1/build/status_insterfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duhao/ros_test1/install/status_insterfaces', 'merge_install': False, 'path': '/home/duhao/ros_test1/topic_practice_ws/src/stutas_insterfaces', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.168s] DEBUG:colcon.colcon_core.verb:Building package 'status_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duhao/ros_test1/build/status_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duhao/ros_test1/install/status_publisher', 'merge_install': False, 'path': '/home/duhao/ros_test1/topic_practice_ws/src/status_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.168s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duhao/ros_test1/topic_practice_ws/src/stutas_insterfaces' with build type 'ament_cmake'
+[0.169s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duhao/ros_test1/topic_practice_ws/src/stutas_insterfaces'
+[0.172s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duhao/ros_test1/build/status_insterfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duhao/ros_test1/install/status_publisher:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/duhao/ros_test1/topic_practice_ws/src/stutas_insterfaces -DCMAKE_INSTALL_PREFIX=/home/duhao/ros_test1/install/status_insterfaces
+[2.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duhao/ros_test1/build/status_insterfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duhao/ros_test1/install/status_publisher:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/duhao/ros_test1/topic_practice_ws/src/stutas_insterfaces -DCMAKE_INSTALL_PREFIX=/home/duhao/ros_test1/install/status_insterfaces
+[2.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duhao/ros_test1/build/status_insterfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duhao/ros_test1/install/status_publisher:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duhao/ros_test1/build/status_insterfaces -- -j2 -l2
+[5.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duhao/ros_test1/build/status_insterfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duhao/ros_test1/install/status_publisher:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duhao/ros_test1/build/status_insterfaces -- -j2 -l2
+[5.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duhao/ros_test1/build/status_insterfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duhao/ros_test1/install/status_publisher:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duhao/ros_test1/build/status_insterfaces
+[5.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_insterfaces)
+[5.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duhao/ros_test1/build/status_insterfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duhao/ros_test1/install/status_publisher:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duhao/ros_test1/build/status_insterfaces
+[5.970s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces' for CMake module files
+[5.970s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces' for CMake config files
+[5.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_insterfaces', 'cmake_prefix_path')
+[5.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/cmake_prefix_path.ps1'
+[5.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/cmake_prefix_path.dsv'
+[5.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/cmake_prefix_path.sh'
+[5.972s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/lib'
+[5.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_insterfaces', 'ld_library_path_lib')
+[5.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/ld_library_path_lib.ps1'
+[5.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/ld_library_path_lib.dsv'
+[5.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/ld_library_path_lib.sh'
+[5.972s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/bin'
+[5.972s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/lib/pkgconfig/status_insterfaces.pc'
+[5.973s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/lib/python3.12/site-packages'
+[5.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_insterfaces', 'pythonpath')
+[5.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/pythonpath.ps1'
+[5.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/pythonpath.dsv'
+[5.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/pythonpath.sh'
+[5.973s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/bin'
+[5.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.ps1'
+[5.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.dsv'
+[5.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.sh'
+[5.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.bash'
+[5.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.zsh'
+[5.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duhao/ros_test1/install/status_insterfaces/share/colcon-core/packages/status_insterfaces)
+[5.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_insterfaces)
+[5.976s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces' for CMake module files
+[5.976s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces' for CMake config files
+[5.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_insterfaces', 'cmake_prefix_path')
+[5.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/cmake_prefix_path.ps1'
+[5.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/cmake_prefix_path.dsv'
+[5.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/cmake_prefix_path.sh'
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/lib'
+[5.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_insterfaces', 'ld_library_path_lib')
+[5.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/ld_library_path_lib.ps1'
+[5.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/ld_library_path_lib.dsv'
+[5.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/ld_library_path_lib.sh'
+[5.979s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/bin'
+[5.979s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/lib/pkgconfig/status_insterfaces.pc'
+[5.979s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/lib/python3.12/site-packages'
+[5.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_insterfaces', 'pythonpath')
+[5.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/pythonpath.ps1'
+[5.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/pythonpath.dsv'
+[5.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/hook/pythonpath.sh'
+[5.980s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_insterfaces/bin'
+[5.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.ps1'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.dsv'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.sh'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.bash'
+[5.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_insterfaces/share/status_insterfaces/package.zsh'
+[5.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duhao/ros_test1/install/status_insterfaces/share/colcon-core/packages/status_insterfaces)
+[5.983s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/duhao/ros_test1/topic_practice_ws/src/status_publisher' with build type 'ament_python'
+[5.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_publisher', 'ament_prefix_path')
+[5.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/hook/ament_prefix_path.ps1'
+[5.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/hook/ament_prefix_path.dsv'
+[5.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/hook/ament_prefix_path.sh'
+[5.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.115s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/duhao/ros_test1/topic_practice_ws/src/status_publisher'
+[6.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duhao/ros_test1/topic_practice_ws/src/status_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/duhao/ros_test1/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duhao/ros_test1/install/status_publisher/lib/python3.12/site-packages:/home/duhao/ros_test1/install/status_insterfaces/lib/python3.12/site-packages:/home/duhao/ros_test1/install/status_publisher/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/status_publisher build --build-base /home/duhao/ros_test1/build/status_publisher/build install --record /home/duhao/ros_test1/build/status_publisher/install.log --single-version-externally-managed install_data
+[7.174s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_publisher' for CMake module files
+[7.174s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_publisher' for CMake config files
+[7.175s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_publisher/lib'
+[7.175s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_publisher/bin'
+[7.175s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_publisher/lib/pkgconfig/status_publisher.pc'
+[7.175s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_publisher/lib/python3.12/site-packages'
+[7.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_publisher', 'pythonpath')
+[7.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/hook/pythonpath.ps1'
+[7.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/hook/pythonpath.dsv'
+[7.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/hook/pythonpath.sh'
+[7.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duhao/ros_test1/topic_practice_ws/src/status_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/duhao/ros_test1/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duhao/ros_test1/install/status_publisher/lib/python3.12/site-packages:/home/duhao/ros_test1/install/status_insterfaces/lib/python3.12/site-packages:/home/duhao/ros_test1/install/status_publisher/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/status_publisher build --build-base /home/duhao/ros_test1/build/status_publisher/build install --record /home/duhao/ros_test1/build/status_publisher/install.log --single-version-externally-managed install_data
+[7.184s] Level 1:colcon.colcon_core.environment:checking '/home/duhao/ros_test1/install/status_publisher/bin'
+[7.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_publisher)
+[7.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/package.ps1'
+[7.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/package.dsv'
+[7.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/package.sh'
+[7.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/package.bash'
+[7.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/duhao/ros_test1/install/status_publisher/share/status_publisher/package.zsh'
+[7.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duhao/ros_test1/install/status_publisher/share/colcon-core/packages/status_publisher)
+[7.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.190s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.206s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.206s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.208s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.232s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duhao/ros_test1/install/local_setup.ps1'
+[7.236s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duhao/ros_test1/install/_local_setup_util_ps1.py'
+[7.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duhao/ros_test1/install/setup.ps1'
+[7.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duhao/ros_test1/install/local_setup.sh'
+[7.244s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duhao/ros_test1/install/_local_setup_util_sh.py'
+[7.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duhao/ros_test1/install/setup.sh'
+[7.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duhao/ros_test1/install/local_setup.bash'
+[7.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duhao/ros_test1/install/setup.bash'
+[7.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duhao/ros_test1/install/local_setup.zsh'
+[7.246s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duhao/ros_test1/install/setup.zsh'
